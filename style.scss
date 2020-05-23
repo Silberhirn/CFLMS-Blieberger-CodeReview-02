@@ -1,0 +1,291 @@
+body {
+	font-family: 'Oswald', sans-serif;
+	max-width: 1280px;
+	margin: auto;
+}
+
+header {
+	div {
+		display: flex;
+		background-color: #571719;
+		justify-content: space-between;
+		padding: 1em;
+		align-items: center;
+	}
+}
+
+nav {
+	display: flex;
+	background-color: black;
+	height: 2em;
+	align-items: center;
+	ul {
+		display: flex;
+		list-style: none;
+		color: white;
+		margin-left: 1em;
+		margin-top: 0;
+		margin-bottom: 0;
+		padding: 0;
+		li {
+			margin-right: 1em;
+		}
+	}
+}
+
+#headernav li {
+	font-size: 15pt;
+}
+
+.main {
+	margin-left: 1em;
+	#Date {
+		text-align: right;
+		font-size: 10pt
+	}
+}
+
+h3 {
+	background-color: #DDDDDD;
+	padding-left: 5pt;
+	font-size: 16pt;
+	width: 100%;
+}
+
+
+.one {
+	background-image: url("img/nasa.png");
+} 
+
+.two {
+	background-image: url("img/eu.png");
+} 
+
+.three {
+	background-image: url("img/jeff.png");
+} 
+
+.four {
+	background-image: url("img/polar.png");
+} 
+
+.five {
+	background-image: url("img/musk.jpg");
+} 
+
+.six {
+	background-image: url("img/snowden.jpg");
+} 
+
+.seven {
+	background-image: url("img/iphone.png");
+} 
+
+.eight {
+	background-image: url("img/smart.png");
+} 
+
+.nine {
+	background-image: url("img/one.png");
+} 
+
+.ten {
+	background-image: url("img/phone.png");
+} 
+
+#banner3 {
+	text-align: center;
+	width: 90%;
+	margin: auto;
+}
+
+.img {
+	display: flex;
+	height: 15em;
+	width: 47%;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	align-items: flex-end;
+	margin-bottom: 4em;
+	div {
+		overflow: hidden;
+		position: relative;
+		top: 4em;
+		width: 100%;
+		display: flex;
+		height: 7em;
+		color: white;
+		background-color: #171717;
+		p {
+			font-size: 20pt;
+			margin: 3%;
+		}
+	}
+}
+
+#box2 {
+	display: flex;
+	justify-content: space-between;
+	height: 40em;
+	overflow: hidden;
+	margin-bottom: 3em;
+	margin-top: 2em;
+	#box21 {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		width: 85%;
+		.container2 {
+			display: flex;
+			justify-content: space-between;
+		}
+	}
+	#banner4 {
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+		width: 13%;
+		img {
+			width: 100%;
+		}
+	}
+}
+
+#footernav li {
+	font-size: 12pt;
+	margin-top: 1em;
+}
+
+footer {
+	display: flex;
+	color: white;
+	background-color: black;
+	height: 12em;
+	flex-flow: column wrap;
+	justify-content: space-between;
+	p {
+		text-align: center
+	}
+	img {
+		align-self: flex-end;
+		margin-right: 1em;
+	}
+}
+
+@media screen and (min-width: 480px) {
+	.main {
+		margin-right: 1em;
+	}
+	#box1 {
+		margin-bottom: 3em;
+		display: flex;
+		justify-content: space-between;
+		#box11 {
+			display: flex;
+			flex-flow: column wrap;
+			justify-content: space-between;
+			width: 85%;
+			height: 25em;
+			align-items: center;
+			.container1 {
+				display: flex;
+				justify-content: space-between;
+				width: 100%;
+				height: 10em;
+			}
+			#banner2 {
+				display: flex;
+				order: 1;
+				justify-content: flex-end;
+				overflow: hidden;
+				width: 17.5%;
+				height: 100%;
+				img {
+					width: 87%;
+				}
+			}
+		}
+	}
+
+	.pic {
+		display: flex;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		align-items: flex-end;
+		margin-bottom: 3em;
+		width: 30%;
+		height: 8em;
+		div {
+			font-size: 80%;
+			overflow: hidden;
+			position: relative;
+			top: 3em;
+			width: 100%;
+			display: flex;
+			height: 6em;
+			color: white;
+			background-color: #171717;
+			p {
+				margin: 3%;
+			}
+		}
+	}
+}
+
+@media screen and (max-width: 479px) {
+	.pic {
+		display: flex;
+		background-size: cover;
+		background-position: center;
+		background-repeat: no-repeat;
+		align-items: flex-end;
+		margin-bottom: 2em;
+		width: 48%;
+		height: 5em;
+		div {
+			font-size: 60%;
+			overflow: hidden;
+			position: relative;
+			top: 2em;
+			width: 100%;
+			display: flex;
+			height: 4em;
+			color: white;
+			background-color: #171717;
+			p {
+				margin: 3%;
+			}
+		}
+	}
+
+	.skip {
+		display: none;
+	}
+	#headernav {
+		display: flex;
+		justify-content: center;
+		overflow: hidden;
+	}
+	h3 {
+		margin-top: 10pt;
+		margin-bottom: 10pt;
+	}	
+
+	#box1 {
+		display: flex;
+		flex-wrap: wrap;
+		#box11 {
+			.container1 {
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-between;
+			}
+			#banner2 {
+				width: 48%;
+				height: 5em;
+			}
+		}
+	}
+}
