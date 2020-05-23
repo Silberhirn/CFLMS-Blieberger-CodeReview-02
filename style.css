@@ -132,7 +132,8 @@ h3 {
       overflow: hidden;
       width: 13%; }
       #box2 #banner4 img {
-        width: 100%; }
+        object-fit: contain;
+        height: 100%; }
 
   .pic {
     display: flex;

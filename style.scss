@@ -140,6 +140,7 @@ h3 {
 			}
 		}
 	}
+
 	#box2 {
 		display: flex;
 		justify-content: space-between;
@@ -163,7 +164,8 @@ h3 {
 			overflow: hidden;
 			width: 13%;
 			img {
-				width: 100%;
+				object-fit: contain;
+				height: 100%;
 			}
 		}
 	}
